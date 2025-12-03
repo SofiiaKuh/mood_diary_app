@@ -242,7 +242,7 @@ class _HomeScreenState extends State<HomeScreen>
                     GestureDetector(
                       onTap: () async {
                         analytics.logEvent(name: 'home_title_clicked');
-                        throw StateError('This is a test exception');
+                        throw StateError('This is test exception');
                       },
                       child: Text(
                         'MoodDiary',
