@@ -1,1 +1,36 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"mood-diary-auth-b525b","appId":"1:365577860639:android:eb5b4d6336922e7193072a","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"mood-diary-auth-b525b","configurations":{"web":"1:365577860639:web:836346b3231d4de293072a","windows":"1:365577860639:web:cc2c466fb2d5ef1793072a"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mood-diary-auth-b525b",
+          "appId": "1:365577860639:android:eb5b4d6336922e7193072a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mood-diary-auth-b525b",
+          "configurations": {
+            "web": "1:365577860639:web:836346b3231d4de293072a",
+            "windows": "1:365577860639:web:cc2c466fb2d5ef1793072a"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "europe-west1"
+    },
+    "rewrites": [
+      { "source": "**", "destination": "/index.html" }
+    ]
+  }
+}
